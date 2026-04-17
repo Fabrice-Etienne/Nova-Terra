@@ -11,7 +11,8 @@ import Cart from "./pages/Cart";
 import ProductPage from "./pages/ProductPage";
 import Checkout from "./pages/Checkout";
 import Success from "./pages/Success";
-
+import Pro from "./pages/Pro";
+import Contact from "./pages/Contact";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -94,6 +95,8 @@ return (
         />
 
         <Route path="/success" element={<Success />} />
+        <Route path="/pro" element={<Pro />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
 

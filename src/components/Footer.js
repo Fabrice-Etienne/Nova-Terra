@@ -35,7 +35,7 @@ function Footer() {
           <p>Service client</p>
           <p>Suivi commande</p>
           <p>Retours & remboursements</p>
-          <p>Contact</p>
+           
         </div>
 
       </div>

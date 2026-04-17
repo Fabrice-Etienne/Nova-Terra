@@ -25,7 +25,9 @@ function Navbar({ cart }) {
       </div>
 
       <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+        <Link className="link" to="/pro">Espace Pro</Link>
         <Link className="link" to="/catalogue">Catalogue</Link>
+        <Link className="link" to="/contact">Contact</Link>
         <Link className="link" to="/cart">Panier ({total})</Link>
       </div>
 
